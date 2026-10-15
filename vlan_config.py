@@ -16,8 +16,6 @@ commands = [
     "name USERS",
     "vlan 200",
     "name SERVERS"
-    "vlan 300",
-    "name DBS"
 ]
 
 connection.send_config_set(commands)
