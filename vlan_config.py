@@ -13,7 +13,9 @@ connection = ConnectHandler(**device)
 
 commands = [
     "vlan 100",
-    "name USERS"
+    "name USERS",
+    "vlan 200",
+    "name SERVERS"
 ]
 
 connection.send_config_set(commands)
