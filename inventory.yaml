@@ -1,2 +1,2 @@
 router:
-  hostname: BGP-R1
+  hostname: OSPF-R1
